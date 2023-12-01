@@ -1,4 +1,4 @@
-FROM archlinux/base
+FROM archlinux:latest
 
 RUN pacman -Syy --noconfirm archiso cdrkit grep base-devel
 RUN useradd arched -m
